@@ -9,6 +9,24 @@
                     "tags": "st3-"
                 }
             ]
+        },
+        {
+            "details": "https://github.com/facelessuser/AnyOpen",
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": "st3-"
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/facelessuser/mdpopups_test",
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": "st3-"
+                }
+            ]
         }
     ],
     "dependencies": [
