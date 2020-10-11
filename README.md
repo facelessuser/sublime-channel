@@ -14,4 +14,4 @@ Add JSON to the list in `Package Control.sublime-settings`.
         "https://raw.githubusercontent.com/facelessuser/sublime-channel/master/repositories.json",
     ],
 }
-````
+```
