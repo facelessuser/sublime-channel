@@ -31,34 +31,6 @@
     ],
     "dependencies": [
         {
-            "name": "python-markdown",
-            "author": "facelessuser",
-            "load_order": "50",
-            "description": "Python Markdown module",
-            "issues": "https://github.com/facelessuser/sublime-markdown/issues",
-            "releases": [
-                {
-                    "base": "https://github.com/facelessuser/sublime-markdown",
-                    "tags": true,
-                    "sublime_text": ">=3000"
-                }
-            ]
-        },
-        {
-            "name": "regex",
-            "author": "facelessuser",
-            "load_order": "50",
-            "description": "Regex Module",
-            "issues": "https://github.com/facelessuser/sublime-regex/issues",
-            "releases": [
-                {
-                    "base": "https://github.com/facelessuser/sublime-regex",
-                    "tags": true,
-                    "sublime_text": ">=3000"
-                }
-            ]
-        },
-        {
             "name": "backrefs",
             "author": "facelessuser",
             "load_order": "50",
@@ -67,6 +39,34 @@
             "releases": [
                 {
                     "base": "https://github.com/facelessuser/sublime-backrefs",
+                    "tags": true,
+                    "sublime_text": ">=3000"
+                }
+            ]
+        },
+        {
+            "name": "bracex",
+            "author": "facelessuser",
+            "load_order": "50",
+            "description": "BraceX",
+            "issues": "https://github.com/facelessuser/sublime-bracex/issues",
+            "releases": [
+                {
+                    "base": "https://github.com/facelessuser/sublime-bracex",
+                    "tags": true,
+                    "sublime_text": ">=3000"
+                }
+            ]
+        },
+        {
+            "name": "coloraide",
+            "author": "facelessuser",
+            "load_order": "50",
+            "description": "A color library.",
+            "issues": "https://github.com/facelessuser/sublime-coloraide/issues",
+            "releases": [
+                {
+                    "base": "https://github.com/facelessuser/sublime-coloraide",
                     "tags": true,
                     "sublime_text": ">=3000"
                 }
@@ -101,14 +101,28 @@
             ]
         },
         {
-            "name": "bracex",
+            "name": "python-markdown",
             "author": "facelessuser",
             "load_order": "50",
-            "description": "BraceX",
-            "issues": "https://github.com/facelessuser/sublime-bracex/issues",
+            "description": "Python Markdown module",
+            "issues": "https://github.com/facelessuser/sublime-markdown/issues",
             "releases": [
                 {
-                    "base": "https://github.com/facelessuser/sublime-bracex",
+                    "base": "https://github.com/facelessuser/sublime-markdown",
+                    "tags": true,
+                    "sublime_text": ">=3000"
+                }
+            ]
+        },
+        {
+            "name": "regex",
+            "author": "facelessuser",
+            "load_order": "50",
+            "description": "Regex Module",
+            "issues": "https://github.com/facelessuser/sublime-regex/issues",
+            "releases": [
+                {
+                    "base": "https://github.com/facelessuser/sublime-regex",
                     "tags": true,
                     "sublime_text": ">=3000"
                 }
